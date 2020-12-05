@@ -1,17 +1,4 @@
-# webstarter kit v1
+# movie api tets site
 
-This setup bootstraps a webfolder with Scss, Postcss, Babel
+de link naar de site is http://apiexcercise.surge.sh/
 
-## Installation
-
-Run this command to install only the dependencies withour dev-dependencies
-
-```bash
-npm install --only=prod
-```
-
-Run this command to install dependencies and dev-dependencies
-
-```bash
-npm install
-```
