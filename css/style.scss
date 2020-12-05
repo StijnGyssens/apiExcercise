@@ -1,0 +1,43 @@
+@import "reset";
+@import "variables";
+
+body {
+  background-color: #fff;
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  form {
+    display: flex;
+  }
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .movieGrid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .movie {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+  }
+  .hidden {
+    display: none;
+  }
+  .error {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  .column {
+    display: flex;
+
+    .container{
+      padding:0 20px;
+
+      img{
+        width: 20vw;
+      }
+    }
+  }
+}
